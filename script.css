@@ -1,0 +1,82 @@
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+    color: white;
+}
+
+    
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.h1{
+    background-color: black;
+}
+.btn1{
+    background-color:transparent;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+    font-size: 20px;
+    border-color: #e50914;
+    
+    
+}
+.btn1:hover{
+    background-color: #e50914;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+    font-size: 20px;
+    
+}
+.btn2{
+    font-size: 20px;
+    background-color:transparent;
+    color:white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-items: end;
+    border-color: #e50914;
+    
+}
+.btn2:hover{
+    font-size: 20px;
+    background-color: #e50914;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-items: end;
+    
+}
+.enter{
+    width: 25%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    margin: 2px;
+    padding: 7px 0;
+    background-color: #202124 ;
+}
