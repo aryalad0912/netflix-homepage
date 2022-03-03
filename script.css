@@ -23,7 +23,7 @@ body{
 .btn1{
     background-color:transparent;
     color: white;
-    padding-left: 100px;
+    padding-left: 95px;
     padding-right: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -37,7 +37,7 @@ body{
 .btn1:hover{
     background-color: #e50914;
     color: white;
-    padding-left: 100px;
+    padding-left: 95px;
     padding-right: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
