@@ -57,7 +57,7 @@ body{
     padding-bottom: 10px;
     justify-items: end;
     border-color: #e50914;
-    width: 100%;
+    width: 100%
     
 }
 .btn2:hover{
@@ -69,7 +69,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     justify-items: end;
-    
+    width:100%
 }
 .enter{
     width: 25%;
