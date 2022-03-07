@@ -3,18 +3,70 @@
 <head>
     <title>Netflix</title>
     <link rel="stylesheet" href="script.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="javascript">
+    function getPass(){
+    var gp1=document.getElementById("gp1");
+    var gp2=document.getElementById("gp2");
+    var gp=document.getElementById("gp");
+    if(gp.type==="password"){
+    gp.type="text";
+    gp1.style.display="inline-flex";
+    gp1.style.justifyContent="end";
+    gp2.style.display="none";
+    }else{
+    gp.type="password";
+    gp1.style.display="none";
+    gp2.style.display="inline";
+    }}
+    function getpassword(){
+    var p1 = document.getElementById("p1");
+    var p2 = document.getElementById("p2");
+    var p = document.getElementById("p");
+
+                if(p.type==="password"){
+                    p.type="text";
+                    p1.style.display="inline";
+                    p2.style.display="none";
+                }else{
+                    p.type="password";
+                    p1.style.display="none";
+                    p2.style.display="inline";
+                }
+
+            }
+        </script>
+    
+    </head>
 <body>
     <div class="container">
-    <img class= "image" src ="netflix N.png" height="250px" width="250px" />
-    <h3 class="heading">Start your free 30 days trial</h3>
-    <input type="text" class="enter" minlength="3" maxlength="7" placeholder="Email or phone number" required/><br><br>
-    <input type="password" class="enter" minlength="6" maxlength="12" placeholder="Password" required/><br><br>
-    <input type="password" class="enter" minlength="6" maxlength="12" placeholder="Repeat password" required/><br><br>
+    <img class= "image" src ="netflix N.png" height="140px" width="800px" />
+    <h4 class="heading">Start your free 30 days trial</h4>
+        <div class="container one">
+             <span style="margin-top:10px;"><img src="user.png" style="display:inline;"></span>
+             <input type="text" class="enter" minlength="4" maxlength="12" placeholder="Email or phone number" required/><br><br>
+        </div>
+        <div class="container one">
+            <span style="margin-top:10px;"><img src="lock.png" style="display:inline;"></span>
+    <input type="password" id="p" class="enter" minlength="6" maxlength="12" placeholder="Password" required/><br><br>
+     <span style="margin-left:auto; margin-top: 10px;" onclick="getpassword()">
+         <img id="p2" src="eyec.png" >
+         <img id="p1" src="eyeo.png" >
+            </span>
+        </div>
+        <div class="container one">
+            <span style="margin-top: 10px;"><img src="lock.png" style="display:inline;"></span>
+            <input id="gp" type="password" class="enter" minlength="6" maxlength="12" placeholder="Repeat password" required/><br><br>
+             <img id="gp2" src="eyec.png" >
+             <img id="gp1" src="eyeo.png" >   
+            </span>
+    </div>
+    <div class="buttons">
     <button class="btn1">SIGN UP</button><br><br>
     <button class="btn2">SIGN IN</button>
+    </div>
 </div>   
 </body>
 </html>
