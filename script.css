@@ -93,3 +93,8 @@ display:none;
 input::placeholder{
     color: #3c3c3c;
 }
+
+.container .container-one .pic1{
+    padding-top: 20px;
+    
+}
